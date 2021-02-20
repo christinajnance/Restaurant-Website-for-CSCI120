@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> C's Kitchen </title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles/fusionStyles.css"/>
+	</head>
+	<body id="page">
+		<header>
+			<h1> Christina's Food Fusion </h1>
+			<nav> 
+				<ul>
+					<li><a href="index.html"> Home</a></li>
+					<li><a href="about.html"> About Us</a></li>
+					<li><a href="breakfast.html"> Breakfast</a></li>
+					<li><a href="lunch.html"> Lunch</a></li>
+					<li><a href="dinner.html"> Dinner</a></li>
+					<li><a href="extras.html"> Appetizers</a></li>
+					<li><a href="locations.html"> Locations</a></li>
+					<li><a href="contact.html"> Contact Us</a></li>
+					<li><a href="events.html"> Events </a></li>
+					<li><a href="order.html"> Online Ordering</a></li>
+				</ul>
+			</nav>
+		</header>
+		<form method="get" action="#"> 
+		<fieldset> 
+			<legend> Did you Like Christina's Food Fusion? </legend>
+			
+			<p>
+				<label for="uName"> Name </label>
+				<input type="text" name="uName" id="uName" required="truth"/> 
+				<p id="output"> </p>
+			</p>
+			
+			<p>
+				<label for="fDish"> Favorite Dish </label>
+				<select name="fDish" id="fDish">
+					<option> Breakfast: C's Panera</option>
+					<option> Breakfast: C's Waffle House </option>
+					<option> Lunch: C's Spaghetti </option>
+					<option> Lunch: Chicken Hibachi </option>
+					<option> Dinner: C's Simple Salmon </option>
+					<option> Dinner: C's Cookout </option>
+					<option> Appetizers: C's Chicken Wings </option>
+					<option> Appetizers: C's Tacos </option>
+				</select>	
+				<p id="favDish"> <p>
+			</p>
+		
+			<p>
+				<label for="rComments"> Comments </label>
+				<textarea id="rComments" name="rComments" rows="10"/>
+					Type here
+				</textarea>
+			</p>
+		
+			<p>
+				<label> Phone </label>
+				<input type="text" name="phone" id="phone"
+					placeholder="###-###-####" />
+			</p>
+			
+			<p>
+				<label> Time of Day When Visited </label> <br />
+				<input type="radio" name="timeOfDay" value="1" checked="true"> Early <br />
+				<input type="radio" name="timeOfDay" value="2"> Midday <br />
+				<input type="radio" name="timeOfDay" value="3"> Afternoon <br />
+				<input type="radio" name="timeOfDay" value="4"> Evening <br />
+			</p>
+			
+			<p>
+				<label> Rate this restaurant: <label> <br />
+				Didn't Like <input type="range" min="1" max="10" step="1" name="customerServiceLevel" id="rating"/> LOVE
+				<p id="output"> </p>
+			</p>
+		
+			
+			<p>
+				<label> When did you visit Christina's Food Fusion? </label> <br />
+				<input type="date"/> 
+			</p>
+			
+			<p>
+				<label> Permission to Publish Survey </label> <br />
+				<input type="checkbox" name="permission" value="yes"/> Yes <br />
+				<input type="checkbox" name="permission" value="no"/> No <br />
+			</p>
+			
+			<input type="submit" class="btn btn-info" id="submit"/><p id="sub"> </p></button>
+			<input type="reset" value="clear form" class="btn" id="reset"/></button>
+			
+		</fieldset>
+	</form>
+		<footer>
+			<p> <a href ="survey.html"> Help us, Help you.</a> </p>
+			<p> <a href="employment.html"> Need a job? Please click here.</a> </p>
+			&copy
+		</footer>
+		
+		<script type="text/JavaScript" src=
+		"scripts/survey.js">
+		</script> 
+	</body>
+</html>
