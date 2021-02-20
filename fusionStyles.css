@@ -1,0 +1,82 @@
+body {
+	background-color: #42f4f4;
+}
+h {
+	background-color: rgb(209, 12, 179);
+	font-weight: bold;
+	color: #1f2123; 
+}
+.dish {
+	background-color: rgb(86, 229, 34);
+	padding: 10px;
+	margin: 10px;
+	border-style: dashed;
+	border-width: 2px;
+	border-radius: 25px;
+}
+header, footer {
+	background-color: rgb(209, 12, 179);
+}
+footer {
+	font-size: 1.0rem;
+}
+nav {
+	background-color: #f2d752;
+	color: white; 
+}
+nav li {
+	list-style-type: none;
+}
+.dish h3 {
+	font-style: italic; 
+}
+#location {
+	list-style-image: url('../images/arrow.jpg');
+}
+a:visited{
+	color: rgb(209, 12, 179);
+}
+nav a{
+	color: rgb(86, 229, 34);
+	text-decoration: none;
+}
+.dish summary {
+	color: rgb(209, 12, 179);
+}
+.underConstruction {
+	color: #f2d752;
+	font-style: italic;
+}
+table 
+{
+	background-color: #42f4f4;
+	border-collapse: collapse;
+}
+td,th
+{
+	
+}
+tbody tr:nth-child(odd) {
+	background-color: rgb(86, 229, 34);
+}
+
+tbody tr:hover{
+	background-color: #42f4f4;
+	color: black;
+}
+.dish img {
+	 max-width: 100%;
+	}
+	
+#colorScheme {
+	border-style: solid;
+	border-width: 2px;
+	font-style: italic;
+}
+	
+@media only screen and (max-width: 349px) {
+	  .dish img {
+		  display: none;
+	  }  
+} */
+
